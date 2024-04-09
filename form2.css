@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(198, 251, 255);
+    text-align: center;
+     }
+
+div {
+    text-align: left;
+   display: inline-block;
+   width: 55%;
+   height: auto;
+   padding: 0.5em;
+   background: #fffefe;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;    
+     }
+
+h3 {
+    border-bottom: 1px solid rgb(0, 81, 255);
+}
+
+
+.box select{
+  width: 100px;
+}
+
+.required::after {
+    content: "必須";
+    background-color: #ef684a;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin: 0px 5px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+}

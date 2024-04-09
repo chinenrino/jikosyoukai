@@ -1,0 +1,35 @@
+
+caption {
+     color: red;
+ }
+
+ .img{
+    text-align: center;
+    border:  10px double red;
+    width: fit-content;
+    margin: auto;
+ }
+
+ table {
+    border: 5px red;
+    background-color:bisque
+ }
+
+ .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    width: fit-content;
+    text-align: left;
+}
+
+body {
+    background-image: url("images/bg_Argyle.jpg");
+    }
+
+
+
+
+

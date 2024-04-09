@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="form2.css">
+    <title>アンケート</title>
+</head>
+
+<body>
+    <h3><font color="green">アンケート</font></h3>
+  <div><p> AxiZの研修をご利用いただき、誠にありがとうございます。
+    <br>以下の内容の記入及び送信をしてい頂けると幸いです。
+  
+
+  
+    <p><span class="required">会社名</span>
+    <br><textarea name="free" rows="2" cols="100" placeholder="例）株式会社テクノコア"></textarea>
+
+  
+    <p><span class="required">お名前</span>
+    <br><textarea name="free" rows="2" cols="100" placeholder="例）手久野 興亜"></textarea>
+
+  
+    <p><label for="name">メールアドレス</label>
+    <br><textarea name="free" rows="2" cols="100" placeholder="例）example@axiz.co.jp"></textarea>
+
+  
+    <p><label for="name">年齢</label>
+    <br><textarea name="free" rows="2" cols="5"></textarea>
+  
+
+  
+    <p><label for="name">受講コース</label>
+    <br><input type="radio" name="sei" value="male" checked>Java
+        <input type="radio" name="sei" value="female">インフラ
+  
+    <p><label for="name">会場</label>
+        <br><select name="会場">
+            <option value="a-kyousitu" selected >日本橋A教室</option>
+            <option value="b-kyousutu">B教室</option>
+            <option value="c-kyousitu">C教室</option>
+        </select>
+        
+    <p><label for="name">詳しく学びたい内容(複数回答可)</label>
+    <br><input type="checkbox" name="test" value="check" checked>ビジネスマナー
+    <br><input type="checkbox" name="test" value="check" checked>HTML/CSS
+    <br><input type="checkbox" name="test" value="check" checked>JavaScript
+    <br><input type="checkbox" name="test" value="check" checked>Java
+    <br><input type="checkbox" name="test" value="check" checked>データベース
+    <br><input type="checkbox" name="test" value="check" checked>Linux
+  
+
+  
+    <p><label for="name">ご意見</label>
+    <br><textarea name="free" rows="5" cols="100" placeholder="自由にご記入ください。"></textarea>
+    
+    <p><button type="submit">送信する</button>
+ </div>
+
+
+</body>
+
+
